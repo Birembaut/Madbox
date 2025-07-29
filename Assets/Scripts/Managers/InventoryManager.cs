@@ -9,7 +9,7 @@ public class InventoryManager : Singleton<InventoryManager>
 
 	public event Action<WeaponInstance> OnWeaponChanged;
 
-	private void OnEnable()
+	private void Start()
 	{
 		GameManager.Instance.OnGameStateChanged += HandleGameStateChanged;
 		CollectibleManager.Instance.PickupSpawned += OnPickupSpawned;
