@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82b3486328b91514bbd14d4c76866a70, type: 3}
+  m_Name: MaxHealthUp
+  m_EditorClassIdentifier: 
+  upgradeID: 4
+  upgradeName: HealthUp!
+  icon: {fileID: 21300000, guid: 42963a7377a4f0d47bab162de640a4b2, type: 3}
+  value: 3
